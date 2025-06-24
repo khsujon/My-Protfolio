@@ -72,9 +72,13 @@ const About = () => {
       </div>
 
       <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in  JavaScript, and expertise in frameworks 
-        like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, 
-        scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+      I'm a skilled Flutter and Golang developer with a focus on 
+      building high-performance Android and iOS applications. 
+      I create modern, cross-platform mobile apps that are fast, scalable, 
+      and visually appealing. With expertise in both front-end UI and backend logic, 
+      I ensure seamless user experiences backed by robust performance. I'm passionate
+      about writing clean, maintainable code and collaborating 
+      with clients to solve real-world problems through thoughtful design and efficient development.
       </p>
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">
