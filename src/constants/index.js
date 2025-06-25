@@ -1,4 +1,3 @@
-
 import {
   logo,
   backend,
@@ -37,6 +36,8 @@ import {
 
 // Import Tekisky separately
 import tekisky from "../assets/company/tekisky.png";
+import bismo from "../assets/bismo_logo.jpg";
+import appifydevs from "../assets/appifydevs_logo.jpg";
 
 
 export const navLinks = [
@@ -153,17 +154,30 @@ const technologies = [
 ];
 
 const experiences = [
+
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
+    title: "Flutter Developer",
+    company_name: "Bismo",
+    icon: bismo,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "JAN 2024 – Present",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Spearheading the development of "Zep Core," a Flutter-based MVP mobile application aimed at streamlining event ticket booking and vendor engagement.',
+      'Implementing features such as digital offers, gift cards, and loyalty cards for seamless customer interactions across multiple vendors.',
+      'Collaborating with cross-functional teams to ensure scalable architecture and an intuitive user interface aligned with business goals.'
+    ],
+  },
+  {
+    title: "Jr. Software Engineer (Flutter)",
+    company_name: "AppifyDevs",
+    icon: appifydevs,
+    iconBg: "#E6DEDD",
+    date: "Oct 2024 – Dec 2024",
+    points: [
+      'Developed an AI-powered chatbot (EchoGPT), integrating multiple AI APIs, improving user retention by 25%.',
+      'Optimized REST API calls for an HRMS application, reducing API response time by 15%.',
+      'Enhanced app performance for the Chondo App by refactoring the GetX-based codebase, achieving 20% faster response times.',
+      'Designed an admin dashboard with secure authentication and intuitive UI/UX for managing interactions.'
     ],
   },
 ];

@@ -29,6 +29,8 @@ import threejs from "./tech/threejs.svg";
 import firstTestimonial from './Tars Ken.webp';
 import secondTestimonial from './image.webp';
 import thirdTestimonial from './third testimonial.webp'
+import bismo from "./bismo_logo.jpg";
+import appifydevs from "./appifydevs_logo.jpg";
 
 export {
   logo,
@@ -62,5 +64,6 @@ export {
   redux,
   tailwind,
   threejs,
-
+  bismo,
+  appifydevs,
 };
