@@ -39,6 +39,12 @@ import tekisky from "../assets/company/tekisky.png";
 import bismo from "../assets/bismo_logo.jpg";
 import appifydevs from "../assets/appifydevs_logo.jpg";
 
+import dart from "../assets/tech/dart.png";
+import flutter from "../assets/tech/flutter.png";
+import go from "../assets/tech/golang.png";
+import python from "../assets/tech/python.png";
+import pandas from "../assets/tech/pandas.png";
+import numpy from "../assets/tech/numpy.png";
 
 export const navLinks = [
 
@@ -79,78 +85,57 @@ const services = [
 
 const technologies = [
   {
+    name: "Dart",
+    icon: dart,
+  },
+  {
+    name: "Flutter",
+    icon: flutter,
+  },
+  {
+    name: "Go",
+    icon: go,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Pandas",
+    icon: pandas,
+  },
+  {
+    name: "Numpy",
+    icon: numpy,
+  },
+  {
     name: "HTML 5",
     icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "gsap",
-    icon: gsap,
-  },
-  {
-    name: "framer",
-    icon: framer,
-  },
-
- 
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Material Ui",
-    icon: mui,
+    name: "JavaScript",
+    icon: javascript,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "Express Js",
-    icon: express,
-  },
-  {
-    name: "AWS",
-    icon: aws,
+    name: "MySql",
+    icon: mysql,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "MySql",
-    icon: mysql,
-  },
-
-  {
     name: "git",
     icon: git,
   },
- 
-
+  {
+    name: "figma",
+    icon: figma,
+  },
 ];
 
 const experiences = [
