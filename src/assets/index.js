@@ -31,6 +31,8 @@ import secondTestimonial from './image.webp';
 import thirdTestimonial from './third testimonial.webp'
 import bismo from "./bismo_logo.jpg";
 import appifydevs from "./appifydevs_logo.jpg";
+import postman from './tech/postman.png';
+import firebase from './tech/firebase.png';
 
 export {
   logo,
@@ -66,4 +68,6 @@ export {
   threejs,
   bismo,
   appifydevs,
+  postman,
+  firebase,
 };

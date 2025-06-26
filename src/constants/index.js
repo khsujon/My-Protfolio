@@ -1,9 +1,11 @@
 import {
-  logo,
   backend,
   creator,
   mobile,
   web,
+
+  postman,
+  firebase,
   github,
   menu,
   close,
@@ -12,30 +14,20 @@ import {
   project2,
   project3,
   mysql,
-  express,
-  aws,
-  mui,
-  
-  gsap,
-  framer,
   figma,
   git,
   html,
   javascript,
   mongodb,
-  nodejs,
-  reactjs,
-  redux,
   tailwind,
-  threejs,
+  
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
 } from '../assets'
 
 
-// Import Tekisky separately
-import tekisky from "../assets/company/tekisky.png";
+// Import company logos separately
 import bismo from "../assets/bismo_logo.jpg";
 import appifydevs from "../assets/appifydevs_logo.jpg";
 
@@ -45,6 +37,9 @@ import go from "../assets/tech/golang.png";
 import python from "../assets/tech/python.png";
 import pandas from "../assets/tech/pandas.png";
 import numpy from "../assets/tech/numpy.png";
+
+
+
 
 export const navLinks = [
 
@@ -133,9 +128,23 @@ const technologies = [
     icon: git,
   },
   {
+    name:"github",
+    icon:github,
+  },
+  {
+    name:"firebase",
+    icon:firebase,
+  },
+  {
+    name:"postman",
+    icon:postman,
+  },
+  {
     name: "figma",
     icon: figma,
   },
+
+  
 ];
 
 const experiences = [
